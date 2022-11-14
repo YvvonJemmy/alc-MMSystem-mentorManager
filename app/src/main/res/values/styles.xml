@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="some_id">
+        <item name="android:textSize">12.41sp</item>
+        <item name="android:textColor">@color/mms_black_2</item>
+    </style>
+
+    <style name="mentors">
+
+        <item name="android:textSize">18sp
+        </item>
+        <item name="android:textColor">@color/mms_black_2
+        </item>
+
+    </style>
+
+    <style name="body_1">
+        <item name="android:textSize">16sp</item>
+        <item name="android:textColor">#333333</item>
+        <item name="fontFamily">@font/mukta</item>
+        <item name="fontWeight">600</item>
+
+
+
+    </style>
+
+    <style name="peculiar_c_">
+        <item name="fontFamily">@font/mukta</item>
+        <item name="android:textSize">15sp</item>
+        <item name="android:textColor">#333333</item>
+    </style>
+
+    <style name="program_ass">
+        <item name="android:textSize">10sp</item>
+        <item name="android:textColor">#808080</item>
+    </style>
+
+    <style name="mentor_title">
+        <item name="android:textSize">10sp</item>
+        <item name="fontFamily">@font/mukta</item>
+        <item name="android:textColor">@color/mms_pry_2</item>
+
+    </style>
+
+    <style name="mentor_gad">
+        <item name="android:textSize">10sp</item>
+        <item name="fontFamily">@font/mukta</item>
+          <item name="android:textColor">@color/mms_pry_2</item>
+    </style>
+
+
+</resources>

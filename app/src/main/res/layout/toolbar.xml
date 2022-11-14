@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <!-- Group 587 -->
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/group_587"
+        android:layout_width="326dp"
+        android:layout_height="80dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <!-- Group 368 -->
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:id="@+id/group_368"
+            android:layout_width="320dp"
+            android:layout_height="24.14dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:background="#00000000"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:ignore="MissingConstraints">
+
+
+            <!-- 6:25 -->
+            <TextView
+                android:id="@+id/some_id"
+                android:layout_width="27dp"
+                android:layout_height="23.38dp"
+                android:layout_marginStart="1dp"
+                android:gravity="top"
+                android:text="@string/some_id"
+                android:textAppearance="@style/some_id"
+                android:textFontWeight="700"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+            <!-- Frame 310 -->
+            <RelativeLayout
+                android:id="@+id/frame_310"
+                android:layout_width="66.99dp"
+                android:layout_height="22.74dp"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentBottom="true"
+                android:background="@drawable/frame_310"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+        <!-- Group 614 -->
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:id="@+id/group_614"
+            android:layout_width="319dp"
+            android:layout_height="30dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="18.31dp"
+            android:background="#00000000"
+            app:layout_constraintEnd_toEndOf="@+id/group_368"
+            app:layout_constraintStart_toStartOf="@+id/group_368"
+            app:layout_constraintTop_toBottomOf="@+id/group_368">
+
+            <!-- Group 563 -->
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:id="@+id/group_563"
+                android:layout_width="96dp"
+                android:layout_height="30dp"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+                android:background="#00000000"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent">
+
+                <!-- arrow-left 1 -->
+                <RelativeLayout
+                    android:id="@+id/arrow_left_"
+                    android:layout_width="18dp"
+                    android:layout_height="15dp"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentTop="true"
+                    android:layout_marginStart="3dp"
+                    android:layout_marginTop="8dp"
+                    android:layout_marginBottom="8dp"
+                    android:background="@drawable/arrow_left_"
+                    android:clipToOutline="true"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+                <!-- Mentors -->
+                <TextView
+                    android:id="@+id/mentors"
+                    android:layout_width="67dp"
+                    android:layout_height="30dp"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentTop="true"
+                    android:layout_marginStart="29dp"
+                    android:fontFamily="@font/mukta"
+                    android:gravity="top"
+                    android:text="@string/mentors"
+                    android:textAppearance="@style/mentors"
+                    android:textFontWeight="600"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="@+id/arrow_left_"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+
+            </androidx.constraintlayout.widget.ConstraintLayout>
+            <!-- Group 585 -->
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:id="@+id/group_585"
+                android:layout_width="65dp"
+                android:layout_height="24dp"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+                android:background="#00000000"
+                app:layout_constraintBottom_toBottomOf="@+id/group_563"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toTopOf="parent">
+
+                <!-- broadcast message -->
+                <RelativeLayout
+                    android:id="@+id/broadcast_m"
+                    android:layout_width="24dp"
+                    android:layout_height="24dp"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentTop="true"
+                    android:background="@drawable/broadcast_m"
+                    android:clipToOutline="true"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+                <!-- search 1 -->
+                <RelativeLayout
+                    android:id="@+id/search_1"
+                    android:layout_width="24dp"
+                    android:layout_height="24dp"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentTop="true"
+                    android:background="@drawable/search_1"
+                    android:clipToOutline="true"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+
+            </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
