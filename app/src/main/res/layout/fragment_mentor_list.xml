@@ -3,8 +3,27 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    >
+    android:layout_height="match_parent">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="19dp"
+        android:layout_marginEnd="20dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <include layout="@layout/toolbar" />
+    </androidx.appcompat.widget.Toolbar>
+
+
+
+
+
+
+
 
     <!-- Group 565 -->
     <androidx.constraintlayout.widget.ConstraintLayout
@@ -87,13 +106,27 @@
                     android:id="@+id/mentors_rv"
                     android:layout_width="match_parent"
                     android:layout_height="1034dp">
-
                 </androidx.recyclerview.widget.RecyclerView>
-
         </RelativeLayout>
 
 
 
+    </RelativeLayout>
+    <!-- carbon:add-filled -->
+    <RelativeLayout
+        android:id="@+id/carbon_add_"
+        android:layout_width="64dp"
+        android:layout_height="64dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_gravity="bottom|end"
+        android:layout_marginEnd="25dp"
+        android:layout_marginBottom="22dp"
+        android:background="@drawable/carbon_add_filled"
+        android:clipToOutline="true"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent">
+        <!-- Vector -->
     </RelativeLayout>
 
 

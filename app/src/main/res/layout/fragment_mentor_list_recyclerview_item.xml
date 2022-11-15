@@ -37,7 +37,7 @@
                 android:id="@+id/mentor_profile_pic"
                 android:layout_width="60dp"
                 android:layout_height="60dp"
-                android:src=""></ImageView>
+                android:src="@drawable/grace"></ImageView>
         </androidx.cardview.widget.CardView>
 
         <!-- Peculiar C. Umeh -->
@@ -62,7 +62,7 @@
             android:id="@+id/bio_data"
             android:layout_width="175dp"
             android:layout_height="17dp"
-            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
             android:layout_alignParentTop="true"
             android:fontFamily="@font/mukta"
             android:gravity="top"
@@ -78,7 +78,7 @@
             android:id="@+id/rectangle_1"
             android:layout_width="83dp"
             android:layout_height="18dp"
-            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
             android:layout_alignParentTop="true"
             android:layout_marginTop="4dp"
             android:background="@drawable/rectangle_11"

@@ -12,44 +12,19 @@ import com.peculiaruc.alc_mmsystem_mentormanager.data.local.mentor_list
 import com.peculiaruc.alc_mmsystem_mentormanager.databinding.FragmentMentorListBinding
 import com.peculiaruc.alc_mmsystem_mentormanager.ui.adapters.mentor_list_adapter
 
-
-/**
- * A simple [Fragment] subclass as the default destination in the navigation.
- */
 class Mentor_list_Fragment : Fragment() {
-
     private var _binding:FragmentMentorListBinding? = null
     private val binding get() = _binding!!
-
     private lateinit var rvAdapter: mentor_list_adapter
     private lateinit var mentorLists : List<mentor_list>
 
     override fun onCreateView(inflater: LayoutInflater, container: ViewGroup?, savedInstanceState: Bundle?):
-            View? {
-        _binding = FragmentMentorListBinding.inflate(inflater, container, false)
+            View? { _binding = FragmentMentorListBinding.inflate(inflater, container, false)
+               load_mentors_dummy_list()
 
-        // load data to mentors list
-        load_mentors_dummy_list()
-
-        // create  layoutManager
-        val layoutManager: RecyclerView.LayoutManager = LinearLayoutManager(context)
-
-        // pass it to rvLists layoutManager
-        binding.mentorsRv.setLayoutManager(layoutManager)
-
-        // initialize the adapter,
-        // and pass the required argument
-        rvAdapter = mentor_list_adapter(mentorLists)
-
-        // attach adapter to the recycler view
-        binding.mentorsRv.adapter = rvAdapter
-
-
-        return binding.root
-
-
-
+               return binding.root
     }
+
 
     private fun load_mentors_dummy_list() {
 
@@ -81,6 +56,16 @@ class Mentor_list_Fragment : Fragment() {
 
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
+
+
+        val layoutManager: RecyclerView.LayoutManager = LinearLayoutManager(context)
+        // pass it to rvLists layoutManager
+        binding.mentorsRv.setLayoutManager(layoutManager)
+        // initialize the adapter,
+        // and pass the required argument
+        rvAdapter = mentor_list_adapter(mentorLists)
+        // attach adapter to the recycler view
+        binding.mentorsRv.adapter = rvAdapter
     }
 
     override fun onDestroyView() {
