@@ -66,7 +66,7 @@ class mentors_Reports_fragments : Fragment() {
         binding.mentorTasksRecycleview.adapter = rvAdapter
 
         binding.certificate.setOnClickListener {
-            Navigation.findNavController(it).navigate(R.id.action_mentors_programs_fragment_to_mentro_tasks_fragment)
+            Navigation.findNavController(it).navigate(R.id.action_mentors_Reports_fragments_to_mentor_certificates_fragment)
         }
     }
 
