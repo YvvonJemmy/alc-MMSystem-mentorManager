@@ -1,3 +1,61 @@
 <resources>
     <string name="app_name">MMS Mentor Manager</string>
+    <string name="title_activity_mentor_list">mentor_list</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+    <string name="some_id">6.25</string>
+    <string name="mentors">Mentors</string>
+    <string name="body_1">All mentors</string>
+    <string name="peculiar_c_">Peculiar C. Umeh</string>
+    <string name="program_ass">Program Assistant, Andela, She/her</string>
+    <string name="mentro_title">PROGRAM ASST.</string>
+    <string name="mentor_gad">MENTOR-GAD</string>
+    <string name="g">5G</string>
+    <string name="mentor_profile_name">Anthony Solomon</string>
+    <string name="body_2">Anthony Solomon</string>
+    <string name="mentor">Mentor</string>
+    <string name="about">About</string>
+    <string name="programs">Programs</string>
+    <string name="tasks">Tasks</string>
+    <string name="reports">Reports</string>
+    <string name="certificate">Certificates</string>
+    <string name="bio">Bio</string>
+    <string name="lorem_ipsum">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent dignissim  ut cursus purus efficitur et. Duis ac enim tellus. Phasellus pharetra metus, ut cursus purus efficitur et. Duis ac enim tellus. Phasellus eget tortor dapibus, laoreet mauris sed, dignissim lectus. "</string>
+    <string name="technical_p">Technical Proficiency</string>
+    <string name="java_script">Java Script, Django, Mysql, Android </string>
+    <string name="gads_2022_g">GADS 2022, Google I/O Extended 2021</string>
+    <string name="previous_pr">Previous Programs</string>
+    <string name="previous_ro">Previous Roles Held:</string>
+    <string name="learner_men">Learner, Mentor, Program Assistant,  Program Assistant Lead</string>
+    <string name="program_of_">Program of interest:</string>
+    <string name="google_afri">Google Africa Scholarship Program</string>
+    <string name="been_a_ment">Been a Mentor Before?</string>
+    <string name="yes">Yes</string>
+    <string name="years_of_te">Years of Technical Experience:</string>
+    <string name="years">3 years</string>
+    <string name="documents">Documents</string>
+    <string name="my_resume_d">My resume.doc</string>
+    <string name="birth_cert_">Birth Cert.doc</string>
+    <string name="e_ayodele_a">e.ayodele@andela.com</string>
+    <string name="peculiar_um">\@peculiar.umeh</string>
+    <string name="primary">Delete Mentor</string>
+    <string name="body_1_programs">All Programs</string>
+    <string name="gads_progra">GADS Program 2022</string>
+    <string name="dec_12_2022">Dec 12, 2022</string>
+    <string name="task_body_1">All Tasks</string>
+    <string name="days_from_n">3 days from now</string>
+    <string name="room_librar">Room library article writ...</string>
+    <string name="assign_task">Assign Task</string>
+    <string name="maximum">Maximum</string>
+    <string name="sort">Sort</string>
+    <string name="google_afri_report">Google Africa Scholarship Report</string>
+    <string name="by_ibrahim_">By Ibrahim Kabir  -  19th - 25th Oct 22</string>
+
+
 </resources>

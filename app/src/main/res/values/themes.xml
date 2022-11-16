@@ -11,7 +11,16 @@
         <item name="colorOnSecondary">@color/black</item>
         <!-- Status bar color. -->
         <item name="android:windowLightStatusBar" tools:targetApi="m">true</item>
-        <item name="android:statusBarColor" >@color/white</item>
+        <item name="android:statusBarColor">@color/white</item>
         <!-- Customize your theme here. -->
     </style>
+
+    <style name="Theme.AlcMMSystemmentorManager.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="Theme.AlcMMSystemmentorManager.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="Theme.AlcMMSystemmentorManager.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
 </resources>

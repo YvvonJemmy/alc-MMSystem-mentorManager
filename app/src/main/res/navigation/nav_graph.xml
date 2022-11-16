@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/FirstFragment">
+
+    <fragment
+        android:id="@+id/FirstFragment"
+        android:name="com.peculiaruc.alc_mmsystem_mentormanager.ui.fragments.Mentor_list_Fragment"
+        android:label="@string/first_fragment_label"
+        tools:layout="@layout/fragment_mentor_list">
+        <action
+            android:id="@+id/action_FirstFragment_to_SecondFragment2"
+            app:destination="@id/SecondFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/SecondFragment"
+        android:name="com.peculiaruc.alc_mmsystem_mentormanager.ui.fragments.Mentor_profile_Fragment"
+        android:label="@string/second_fragment_label"
+        tools:layout="@layout/fragment_mentor_profile">
+        <action
+            android:id="@+id/action_SecondFragment_to_mentors_programs_fragment2"
+            app:destination="@id/mentors_programs_fragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/mentors_programs_fragment"
+        android:name="com.peculiaruc.alc_mmsystem_mentormanager.ui.fragments.mentors_programs_fragment"
+        android:label="fragment_mentors_programs_fragment"
+        tools:layout="@layout/fragment_mentors_programs_fragment" >
+        <action
+            android:id="@+id/action_mentors_programs_fragment_to_mentro_tasks_fragment"
+            app:destination="@id/mentro_tasks_fragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/mentro_tasks_fragment"
+        android:name="com.peculiaruc.alc_mmsystem_mentormanager.ui.fragments.Mentro_tasks_fragment"
+        android:label="Mentro_tasks_fragment" >
+        <action
+            android:id="@+id/action_mentro_tasks_fragment_to_mentors_Reports_fragments"
+            app:destination="@id/mentors_Reports_fragments" />
+    </fragment>
+    <fragment
+        android:id="@+id/mentors_Reports_fragments"
+        android:name="com.peculiaruc.alc_mmsystem_mentormanager.ui.fragments.mentors_Reports_fragments"
+        android:label="mentors_Reports_fragments" />
+</navigation>

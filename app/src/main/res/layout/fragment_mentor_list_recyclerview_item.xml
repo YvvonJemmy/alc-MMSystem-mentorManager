@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <!-- Dropdowns / Dropdown User -->
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/dropdowns_d"
+        android:layout_width="0dp"
+        android:layout_height="85dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+
+        android:layout_marginTop="10dp"
+        android:background="@drawable/group_50"
+        android:clipToOutline="true"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/cardView"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_marginStart="13dp"
+            android:layout_marginTop="11dp"
+            android:layout_marginBottom="11dp"
+            app:cardCornerRadius="60dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
+
+            <ImageView
+                android:id="@+id/mentor_profile_pic"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:src="@drawable/grace"></ImageView>
+        </androidx.cardview.widget.CardView>
+
+        <!-- Peculiar C. Umeh -->
+        <TextView
+            android:id="@+id/mentor_name"
+            android:layout_width="wrap_content"
+            android:layout_height="25dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="11dp"
+            android:fontFamily="@font/mukta"
+            android:gravity="top"
+            android:text="@string/peculiar_c_"
+            android:textAppearance="@style/peculiar_c_"
+            android:textColor="@color/mms_black_2"
+            android:textFontWeight="700"
+            app:layout_constraintStart_toEndOf="@+id/cardView"
+            app:layout_constraintTop_toTopOf="parent" />
+        <!-- Program Assistant, Andela, She/her -->
+        <TextView
+            android:id="@+id/bio_data"
+            android:layout_width="175dp"
+            android:layout_height="17dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:fontFamily="@font/mukta"
+            android:gravity="top"
+            android:text="@string/program_ass"
+            android:textAppearance="@style/program_ass"
+            android:textFontWeight="400"
+            app:layout_constraintStart_toStartOf="@+id/mentor_name"
+            app:layout_constraintTop_toBottomOf="@+id/mentor_name" />
+
+
+        <!-- Rectangle 11 -->
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:id="@+id/rectangle_1"
+            android:layout_width="83dp"
+            android:layout_height="18dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="4dp"
+            android:background="@drawable/rectangle_11"
+            app:layout_constraintStart_toStartOf="@+id/bio_data"
+            app:layout_constraintTop_toBottomOf="@+id/bio_data">
+
+            <!-- PROGRAM ASST. -->
+            <TextView
+                android:id="@+id/Title"
+                android:layout_width="wrap_content"
+                android:layout_height="17dp"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginStart="9dp"
+                android:layout_marginTop="1dp"
+                android:layout_marginEnd="6dp"
+                android:fontFamily="@font/mukta"
+                android:textColor="@color/mms_pry_2"
+                android:gravity="top"
+                android:text="@string/mentro_title"
+                android:textAppearance="@style/mentor_title"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+        <!-- Rectangle 11 -->
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:id="@+id/rectangle_2"
+            android:layout_width="83dp"
+            android:layout_height="18dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="6dp"
+            android:background="@drawable/rectangle_11"
+            app:layout_constraintBottom_toBottomOf="@+id/rectangle_1"
+            app:layout_constraintStart_toEndOf="@+id/rectangle_1"
+            app:layout_constraintTop_toTopOf="@+id/rectangle_1">
+
+            <!-- PROGRAM ASST. -->
+            <TextView
+                android:id="@+id/role"
+                android:layout_width="wrap_content"
+                android:layout_height="17dp"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginStart="9dp"
+                android:layout_marginTop="1dp"
+                android:layout_marginEnd="6dp"
+                android:gravity="top"
+                android:text="@string/mentor_gad"
+                android:textAppearance="@style/mentor_gad"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+        <!-- comment-circle-chat-message 1 -->
+        <RelativeLayout
+            android:id="@+id/comment_cir"
+            android:layout_width="24dp"
+            android:layout_height="24dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="29dp"
+            android:layout_marginEnd="15dp"
+            android:layout_marginBottom="29dp"
+            android:background="@drawable/comment_circle_chat_message_1"
+            android:clipToOutline="true"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+
+            />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
