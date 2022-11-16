@@ -46,11 +46,7 @@ class Mentor_list_Fragment : Fragment() {
             mentor_list("Abdul Hassan Mohamed" , "Program Assistant, Andela, She/her","PROGRAM ASST.","MENTOR-GAD", R.drawable.ann),
             mentor_list("MiKe Njoronge Macharia" , "Program Assistant, Andela, She/her","PROGRAM ASST.","MENTOR-GAD", R.drawable.andrew),
             mentor_list("Pendo Karisa Haddassah" , "Program Assistant, Andela, She/her","PROGRAM ASST.","MENTOR-GAD",R.drawable.grace),
-            mentor_list("Peculiar C. Umeh" , "Program Assistant, Andela, She/her","PROGRAM ASST.","MENTOR-GAD",R.drawable.ann),
-
-
-            )
-
+            mentor_list("Peculiar C. Umeh" , "Program Assistant, Andela, She/her","PROGRAM ASST.","MENTOR-GAD",R.drawable.ann),)
 
     }
 

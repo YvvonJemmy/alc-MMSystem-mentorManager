@@ -226,7 +226,7 @@
                         app:layout_constraintStart_toStartOf="parent">
 
                         <ImageView
-                            android:id="@+id/mentor_profile_pic"
+                            android:id="@+id/mentor_program_pic"
                             android:layout_width="112dp"
                             android:layout_height="112dp"
                             android:src="@drawable/profile"></ImageView>
@@ -346,7 +346,7 @@
                                 android:layout_marginBottom="3dp"
                                 android:gravity="center_horizontal|top"
                                 android:text="@string/about"
-                                android:textAppearance="@style/about"
+                                android:textAppearance="@style/current"
                                 app:layout_constraintBottom_toBottomOf="parent"
                                 app:layout_constraintStart_toStartOf="parent"
                                 app:layout_constraintTop_toTopOf="parent" />

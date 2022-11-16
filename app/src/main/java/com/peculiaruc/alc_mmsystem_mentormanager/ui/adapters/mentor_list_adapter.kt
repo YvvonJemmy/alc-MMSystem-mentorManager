@@ -9,7 +9,7 @@ import com.peculiaruc.alc_mmsystem_mentormanager.R
 import com.peculiaruc.alc_mmsystem_mentormanager.data.local.mentor_list
 import com.peculiaruc.alc_mmsystem_mentormanager.databinding.FragmentMentorListRecyclerviewItemBinding
 
-class mentor_list_adapter(var mentor_list: List<mentor_list>, ) : RecyclerView.Adapter<mentor_list_adapter.ViewHolder>() {
+class mentor_list_adapter(private var mentor_list: List<mentor_list>, ) : RecyclerView.Adapter<mentor_list_adapter.ViewHolder>() {
 
 
     inner class ViewHolder(val binding: FragmentMentorListRecyclerviewItemBinding) : RecyclerView.ViewHolder(binding.root)
@@ -29,7 +29,7 @@ class mentor_list_adapter(var mentor_list: List<mentor_list>, ) : RecyclerView.A
                 binding.role.text = this.Role
                 binding.mentorProfilePic.setImageResource(this.profile_pic)
                 binding.dropdownsD.setOnClickListener {
-                    Navigation.findNavController(it).navigate(R.id.action_FirstFragment_to_SecondFragment)
+                    Navigation.findNavController(it).navigate(R.id.action_FirstFragment_to_SecondFragment2)
                 }
             }
             }

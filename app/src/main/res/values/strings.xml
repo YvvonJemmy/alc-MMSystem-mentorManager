@@ -45,6 +45,17 @@
     <string name="e_ayodele_a">e.ayodele@andela.com</string>
     <string name="peculiar_um">\@peculiar.umeh</string>
     <string name="primary">Delete Mentor</string>
+    <string name="body_1_programs">All Programs</string>
+    <string name="gads_progra">GADS Program 2022</string>
+    <string name="dec_12_2022">Dec 12, 2022</string>
+    <string name="task_body_1">All Tasks</string>
+    <string name="days_from_n">3 days from now</string>
+    <string name="room_librar">Room library article writ...</string>
+    <string name="assign_task">Assign Task</string>
+    <string name="maximum">Maximum</string>
+    <string name="sort">Sort</string>
+    <string name="google_afri_report">Google Africa Scholarship Report</string>
+    <string name="by_ibrahim_">By Ibrahim Kabir  -  19th - 25th Oct 22</string>
 
 
 </resources>
