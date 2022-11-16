@@ -43,5 +43,14 @@
     <fragment
         android:id="@+id/mentors_Reports_fragments"
         android:name="com.peculiaruc.alc_mmsystem_mentormanager.ui.fragments.mentors_Reports_fragments"
-        android:label="mentors_Reports_fragments" />
+        android:label="mentors_Reports_fragments" >
+        <action
+            android:id="@+id/action_mentors_Reports_fragments_to_mentor_certificates_fragment"
+            app:destination="@id/mentor_certificates_fragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/mentor_certificates_fragment"
+        android:name="com.peculiaruc.alc_mmsystem_mentormanager.ui.fragments.mentor_certificates_fragment"
+        android:label="fragment_mentor_certificates_fragment"
+        tools:layout="@layout/fragment_mentor_certificates_fragment" />
 </navigation>
