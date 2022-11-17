@@ -28,6 +28,9 @@ class mentor_report_adapter(var mentor_report: List<mentors_reports>, ) : Recycl
                 binding.dropdownsD.setOnClickListener {
                     Navigation.findNavController(it).navigate(R.id.action_FirstFragment_to_SecondFragment2)
                 }
+                binding.dropdownsD.setOnClickListener {
+                    Navigation.findNavController(it).navigate(R.id.action_mentors_Reports_fragments_to_mentor_report_details)
+                }
             }
             }
         }

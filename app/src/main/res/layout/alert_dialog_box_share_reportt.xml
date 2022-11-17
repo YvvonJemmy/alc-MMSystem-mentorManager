@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <!-- MM- Report Alert Dialog -->
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/mm_report_a"
+        android:layout_width="0dp"
+        android:layout_height="391dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:clipToOutline="true"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+        <!-- Group 509 -->
+        <View
+            android:id="@+id/group_509"
+            android:layout_width="118dp"
+            android:layout_height="118dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="37dp"
+            android:background="@drawable/share_report"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <!-- Report Downloaded Successfully! -->
+        <TextView
+            android:id="@+id/report_down"
+            android:layout_width="258dp"
+            android:layout_height="30dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="51dp"
+            android:layout_marginTop="19dp"
+            android:layout_marginEnd="51dp"
+            android:gravity="center"
+            android:text="@string/share_report_vie_mail"
+            android:textAppearance="@style/report_down"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/group_509" />
+
+        <!-- Frame 351 -->
+        <RelativeLayout
+            android:id="@+id/frame_351"
+            android:layout_width="318dp"
+            android:layout_height="50dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="21dp"
+            android:layout_marginTop="45dp"
+            android:layout_marginEnd="21dp"
+            android:background="@drawable/frame_351"
+            android:clipToOutline="true"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/report_down">
+
+            <!-- Done -->
+            <TextView
+                android:id="@+id/done"
+                android:layout_width="wrap_content"
+                android:layout_height="30dp"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentEnd="true"
+                android:layout_marginLeft="97dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginEnd="97dp"
+                android:layout_marginBottom="10dp"
+                android:gravity="top"
+                android:text="@string/share_Report"
+                android:textAppearance="@style/share_Report" />
+
+        </RelativeLayout>
+
+
+        <!-- Frame 352 -->
+        <RelativeLayout
+            android:id="@+id/frame_352"
+            android:layout_width="315dp"
+            android:layout_height="50dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/frame_352"
+            android:clipToOutline="true"
+            app:layout_constraintEnd_toEndOf="@+id/frame_351"
+            app:layout_constraintStart_toStartOf="@+id/frame_351"
+            app:layout_constraintTop_toBottomOf="@+id/frame_351">
+            <!-- Cancel -->
+            <TextView
+                android:id="@+id/cancel"
+                android:layout_width="52dp"
+                android:layout_height="27dp"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentEnd="true"
+                android:layout_marginStart="133dp"
+                android:layout_marginLeft="133dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginEnd="130dp"
+                android:layout_marginBottom="133dp"
+                android:gravity="top"
+                android:text="@string/cancel"
+                android:textAppearance="@style/cancel" />
+
+
+        </RelativeLayout>
+
+
+
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
