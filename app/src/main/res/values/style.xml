@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <style name="customThemeForFab" parent="">
+        <item name="colorSecondary">@color/mms_pry_2</item>
+        <item name="colorOnSecondary">@color/white</item>
+    </style>
+
+    <style name="Widget.App.FloatingActionButton" parent="Widget.MaterialComponents.FloatingActionButton">
+        <item name="materialThemeOverlay">@style/customThemeForFab</item>
+    </style>
+
+    <style name="reportSearchViewStyle" parent="Widget.AppCompat.SearchView">
+        <item name="searchIcon">@drawable/abc_ic_search</item>
+    </style>
+
+    <style name="radio_text_style" parent="Widget.AppCompat.TextView">
+        <item name="android:textColor">@color/mms_black_2</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:textFontWeight" tools:targetApi="p">400</item>
+        <item name="fontFamily">@font/mukta</item>
+    </style>
+
+    <style name="title_text_style" parent="Widget.AppCompat.TextView">
+        <item name="android:textColor">@color/mms_black_2</item>
+        <item name="android:textSize">18sp</item>
+        <item name="android:textFontWeight" tools:targetApi="p">700</item>
+        <item name="fontFamily">@font/mukta</item>
+    </style>
+</resources>
