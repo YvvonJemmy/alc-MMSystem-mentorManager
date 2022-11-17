@@ -57,6 +57,27 @@
     <string name="google_afri_report">Google Africa Scholarship Report</string>
     <string name="by_ibrahim_">By Ibrahim Kabir  -  19th - 25th Oct 22</string>
     <string name="gads_cloud_">GADS CLOUD 2022 - COMPLETION</string>
+    <string name="google_afri_detailed_report">Google Africa Scholarship\nProgram Report</string>
+    <string name="major_achie">Major Achievements</string>
+    <string name="major_achivement_text">"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut et massa mi. Aliquam in hendrerit urna. Pellentesque sit amet sapien fringilla, mattis ligula consectetur, ultrices mauris. Maecenas vitae mattis tellus. Nullam quis imperdiet augue. Vestibulum auctor ornare leo, non suscipit magna interdum eu. Curabitur pellentesque nibh nibh, at maximus ante fermentum sit amet. Pellentesque commodo lacus at sodales sodales. Quisque sagittis orci ut diam condimentum, vel euismod erat placerat. "</string>
+    <string name="major_blocker">Major Blocker</string>
+    <string name="in_iaculis_">"In iaculis arcu eros, eget tempus orci facilisis id.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut et massa mi. Aliquam in hendrerit urna. Pellentesque sit amet sapien fringilla, mattis ligula consectetur, ultrices mauris. Maecenas vitae mattis tellus. "</string>
+    <string name="major_recom">Major Recommendations</string>
+    <string name="nullam_quis">Nullam quis imperdiet augue. Vestibulum auctor ornare leo, non suscipit magna interdum eu. Curabitur pellentesque nibh nibh, at maximus ante fermentum sit amet. Pellentesque commodo lacus at sodales sodales. Quisque sagittis orci ut diam condimentum, vel euismod erat placerat. In iaculis arcu eros, eget tempus orci facilisis id.</string>
+    <string name="share">Share</string>
+    <string name="download">Download</string>
+    <string name="certificate_generate_date">oct_16_2022</string>
+    <string name="download_as">Download as</string>
+    <string name="dowload_as_file">pdf</string>
+    <string name="generate">Generate</string>
+    <string name="select_program">Select Program</string>
+    <string name="report_down">Report Downloaded Successfully!</string>
+    <string name="done">Done</string>
+    <string name="share_report_vie_mail">Share Report Via Email</string>
+    <string name="share_Report">Open Email App</string>
+    <string name="cancel">Cancel</string>
+    <string name="certificate_Sent_for_approval">Certificate Sent For Approval</string>
+    <string name="certificate_downloaded">Certificate Downloaded Successfully</string>
 
 
 </resources>

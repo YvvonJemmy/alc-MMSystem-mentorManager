@@ -1,0 +1,348 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <!-- Group 368 -->
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/group_368"
+        android:layout_width="match_parent"
+        android:layout_height="24.47dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="19dp"
+        android:layout_marginEnd="20dp"
+        android:background="#00000000"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <!-- 6:25 -->
+        <TextView
+            android:id="@+id/some_id"
+            android:layout_width="25dp"
+            android:layout_height="23.7dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentBottom="true"
+            android:gravity="top"
+            android:text="@string/some_id"
+            android:textAppearance="@style/some_id"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+        <!-- Frame 310 -->
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:id="@+id/frame_310"
+            android:layout_width="67.90dp"
+            android:layout_height="23.06dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentBottom="true"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
+
+            <!-- 5G -->
+            <TextView
+                android:id="@+id/g"
+                android:layout_width="17dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="0.2dp"
+                android:layout_marginTop="3.75dp"
+                android:layout_marginBottom="3.75dp"
+                android:gravity="center"
+
+                android:text="@string/g"
+                android:textAppearance="@style/g"
+                android:textColor="@color/mms_black_2"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                tools:ignore="MissingConstraints" />
+
+
+            <!-- fa:wifi -->
+            <RelativeLayout
+                android:id="@+id/fa_wifi"
+                android:layout_width="18.14dp"
+                android:layout_height="13.36dp"
+                android:layout_marginStart="5dp"
+                android:background="@drawable/fa_wifi"
+                app:layout_constraintBottom_toBottomOf="@+id/g"
+                app:layout_constraintStart_toEndOf="@+id/g"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <!-- Group -->
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:id="@+id/group"
+                android:layout_width="22.91dp"
+                android:layout_height="11.46dp"
+                app:layout_constraintBottom_toBottomOf="@+id/fa_wifi"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toEndOf="@+id/fa_wifi"
+                app:layout_constraintTop_toTopOf="@+id/fa_wifi">
+                <!-- Vector -->
+                <androidx.constraintlayout.widget.ConstraintLayout
+                    android:id="@+id/battery_frame"
+                    android:layout_width="22.91dp"
+                    android:layout_height="11.46dp"
+                    android:background="@drawable/vector__battery"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent">
+
+                    <!-- Vector -->
+                    <View
+                        android:id="@+id/vector"
+                        android:layout_width="14.32dp"
+                        android:layout_height="5.37dp"
+
+                        android:layout_marginStart="2dp"
+                        android:layout_marginTop="2dp"
+                        android:layout_marginEnd="4dp"
+                        android:layout_marginBottom="1dp"
+                        android:background="@drawable/vector__battery_level"
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent" />
+
+
+                </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+            </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+    <ScrollView
+        android:id="@+id/mentro_profile_scrollvieww"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_marginTop="62dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:layout_width="0dp"
+                android:layout_height="759dp"
+                android:layout_marginStart="1dp"
+                android:layout_marginEnd="1dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="1.0"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent">
+
+
+                <!-- Google Africa Scholarship Program Report -->
+                <TextView
+                    android:id="@+id/major_achivement_text2"
+                    android:layout_width="0dp"
+                    android:layout_height="179dp"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentTop="true"
+                    android:layout_marginEnd="21dp"
+                    android:gravity="top"
+                    android:justificationMode="inter_word"
+                    android:text="@string/major_achivement_text"
+                    android:textAppearance="@style/major_achivement_text"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="@+id/major_achie"
+                    app:layout_constraintTop_toBottomOf="@+id/major_achie" />
+
+                <TextView
+                    android:id="@+id/google_afri_report"
+                    android:layout_width="204dp"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentTop="true"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginTop="2dp"
+                    android:gravity="top"
+                    android:lineSpacingExtra="-10sp"
+                    android:text="@string/google_afri_detailed_report"
+                    android:textAppearance="@style/google_afri_detailed_report"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+                <!-- close -->
+                <RelativeLayout
+                    android:id="@+id/close"
+                    android:layout_width="24dp"
+                    android:layout_height="24dp"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentTop="true"
+                    android:layout_alignParentRight="true"
+                    android:layout_alignParentBottom="true"
+                    android:layout_marginEnd="21dp"
+                    android:background="@drawable/close"
+                    android:clipToOutline="true"
+                    android:padding="6dp"
+                    app:layout_constraintBottom_toBottomOf="@+id/google_afri_report"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintTop_toTopOf="@+id/google_afri_report" />
+
+                <!-- By Ibrahim Kabir - 19th - 25th Oct 22 -->
+                <TextView
+                    android:id="@+id/by_ibrahim_"
+                    android:layout_width="wrap_content"
+                    android:layout_height="20dp"
+                    android:layout_marginTop="5dp"
+                    android:gravity="top"
+                    android:text="@string/by_ibrahim_"
+                    android:textAppearance="@style/by_ibrahim_"
+                    app:layout_constraintStart_toStartOf="@+id/google_afri_report"
+                    app:layout_constraintTop_toBottomOf="@+id/google_afri_report" />
+
+                <!-- Major Achievements -->
+                <TextView
+                    android:id="@+id/major_achie"
+                    android:layout_width="145dp"
+                    android:layout_height="27dp"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentTop="true"
+                    android:layout_marginTop="20dp"
+                    android:gravity="top"
+                    android:text="@string/major_achie"
+                    android:textAppearance="@style/major_achie"
+                    app:layout_constraintStart_toStartOf="@+id/by_ibrahim_"
+                    app:layout_constraintTop_toBottomOf="@+id/by_ibrahim_" />
+                <!-- Major Achievements -->
+
+                <TextView
+                    android:id="@+id/major_blocker"
+                    android:layout_width="145dp"
+                    android:layout_height="27dp"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentTop="true"
+                    android:layout_marginTop="20dp"
+                    android:gravity="top"
+                    android:text="@string/major_blocker"
+                    android:textAppearance="@style/major_blocker"
+                    app:layout_constraintStart_toStartOf="@+id/major_achivement_text2"
+                    app:layout_constraintTop_toBottomOf="@+id/major_achivement_text2" />
+
+                <TextView
+                    android:id="@+id/in_iaculis_"
+                    android:layout_width="0dp"
+                    android:layout_height="112dp"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentTop="true"
+                    android:layout_marginTop="5dp"
+                    android:gravity="top"
+                    android:justificationMode="inter_word"
+                    android:text="@string/in_iaculis_"
+                    android:textAppearance="@style/nullam_quis"
+                    app:layout_constraintEnd_toEndOf="@+id/major_achivement_text2"
+                    app:layout_constraintStart_toStartOf="@+id/major_blocker"
+                    app:layout_constraintTop_toBottomOf="@+id/major_blocker" />
+
+                <!-- Major Recommendations -->
+                <TextView
+                    android:id="@+id/major_recom"
+                    android:layout_width="176dp"
+                    android:layout_height="27dp"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentTop="true"
+                    android:layout_marginTop="5dp"
+                    android:gravity="top"
+                    android:text="@string/major_recom"
+                    android:textAppearance="@style/major_recom"
+                    app:layout_constraintStart_toStartOf="@+id/in_iaculis_"
+                    app:layout_constraintTop_toBottomOf="@+id/in_iaculis_" />
+
+
+                <TextView
+                    android:id="@+id/nullam_quis"
+                    android:layout_width="0dp"
+                    android:layout_height="123dp"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentTop="true"
+                    android:layout_marginTop="5dp"
+                    android:gravity="top"
+                    android:justificationMode="inter_word"
+                    android:text="@string/nullam_quis"
+                    android:textAppearance="@style/nullam_quis"
+                    app:layout_constraintEnd_toEndOf="@+id/in_iaculis_"
+                    app:layout_constraintStart_toStartOf="@+id/major_recom"
+                    app:layout_constraintTop_toBottomOf="@+id/major_recom" />
+
+                <!-- Frame 375 -->
+                <RelativeLayout
+                    android:id="@+id/frame_375"
+                    android:layout_width="150dp"
+                    android:layout_height="42dp"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentTop="true"
+                    android:layout_marginTop="31dp"
+                    android:background="@drawable/frame_11"
+                    android:clipToOutline="true"
+                    app:layout_constraintStart_toStartOf="@+id/nullam_quis"
+                    app:layout_constraintTop_toBottomOf="@+id/nullam_quis">
+
+                    <!-- Share -->
+                    <TextView
+                        android:id="@+id/share"
+                        android:layout_width="40dp"
+                        android:layout_height="27dp"
+                        android:layout_alignParentLeft="true"
+                        android:layout_alignParentTop="true"
+                        android:layout_marginLeft="55dp"
+                        android:layout_marginTop="8dp"
+                        android:gravity="top"
+                        android:text="@string/share"
+                        android:textAppearance="@style/share_1" />
+
+
+                </RelativeLayout>
+                <!-- Frame 375 -->
+                <RelativeLayout
+                    android:id="@+id/frame_376"
+                    android:layout_width="150dp"
+                    android:layout_height="42dp"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentTop="true"
+                    android:background="@drawable/frame_11_filled"
+                    android:clipToOutline="true"
+                    app:layout_constraintBottom_toBottomOf="@+id/frame_375"
+                    app:layout_constraintEnd_toEndOf="@+id/nullam_quis"
+                    app:layout_constraintTop_toTopOf="@+id/frame_375">
+
+                    <!-- Share -->
+                    <TextView
+                        android:id="@+id/download"
+                        android:layout_width="70dp"
+                        android:layout_height="27dp"
+                        android:layout_alignParentLeft="true"
+                        android:layout_alignParentTop="true"
+                        android:layout_marginLeft="40dp"
+                        android:layout_marginTop="8dp"
+                        android:gravity="top"
+
+                        android:text="@string/download"
+                        android:textAppearance="@style/download" />
+
+
+                </RelativeLayout>
+
+
+            </androidx.constraintlayout.widget.ConstraintLayout>
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

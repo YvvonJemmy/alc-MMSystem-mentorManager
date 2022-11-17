@@ -47,10 +47,33 @@
         <action
             android:id="@+id/action_mentors_Reports_fragments_to_mentor_certificates_fragment"
             app:destination="@id/mentor_certificates_fragment" />
+        <action
+            android:id="@+id/action_mentors_Reports_fragments_to_mentor_report_details"
+            app:destination="@id/mentor_report_details" />
     </fragment>
     <fragment
         android:id="@+id/mentor_certificates_fragment"
         android:name="com.peculiaruc.alc_mmsystem_mentormanager.ui.fragments.mentor_certificates_fragment"
         android:label="fragment_mentor_certificates_fragment"
-        tools:layout="@layout/fragment_mentor_certificates_fragment" />
+        tools:layout="@layout/fragment_mentor_certificates_fragment" >
+        <action
+            android:id="@+id/action_mentor_certificates_fragment_to_mentors_certificate_generate"
+            app:destination="@id/mentors_certificate_generate" />
+    </fragment>
+    <fragment
+        android:id="@+id/mentor_report_details"
+        android:name="com.peculiaruc.alc_mmsystem_mentormanager.ui.fragments.mentor_report_details"
+        android:label="mentor_report_details" />
+    <fragment
+        android:id="@+id/cert_select_program"
+        android:name="com.peculiaruc.alc_mmsystem_mentormanager.ui.fragments.cert_select_program"
+        android:label="cert_select_program" />
+    <fragment
+        android:id="@+id/mentors_certificate_generate"
+        android:name="com.peculiaruc.alc_mmsystem_mentormanager.ui.fragments.mentors_certificate_generate"
+        android:label="mentors_certificate_generate" >
+        <action
+            android:id="@+id/action_mentors_certificate_generate_to_cert_select_program"
+            app:destination="@id/cert_select_program" />
+    </fragment>
 </navigation>
