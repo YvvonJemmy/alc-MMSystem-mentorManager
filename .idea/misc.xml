@@ -1,6 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" project-jdk-name="1.8" project-jdk-type="JavaSDK">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/HP/Projects/alc-MMSystem-mentorManager/app/src/main/res/drawable/button_border.xml" value="0.194" />
+        <entry key="..\:/Users/HP/Projects/alc-MMSystem-mentorManager/app/src/main/res/drawable/card_border.xml" value="0.194" />
+        <entry key="..\:/Users/HP/Projects/alc-MMSystem-mentorManager/app/src/main/res/drawable/ic_cancel.xml" value="0.194" />
+        <entry key="..\:/Users/HP/Projects/alc-MMSystem-mentorManager/app/src/main/res/layout/activity_main.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/HP/Projects/alc-MMSystem-mentorManager/app/src/main/res/layout/activity_reports.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/HP/Projects/alc-MMSystem-mentorManager/app/src/main/res/layout/fragment_compose_report.xml" value="0.25" />
+        <entry key="..\:/Users/HP/Projects/alc-MMSystem-mentorManager/app/src/main/res/layout/fragment_report.xml" value="0.25" />
+        <entry key="..\:/Users/HP/Projects/alc-MMSystem-mentorManager/app/src/main/res/layout/report_item.xml" value="0.33" />
+        <entry key="..\:/Users/HP/Projects/alc-MMSystem-mentorManager/app/src/main/res/menu/menu_item.xml" value="0.20416666666666666" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="11" project-jdk-type="JavaSDK">
     <output url="file://$PROJECT_DIR$/build/classes" />
   </component>
   <component name="ProjectType">

@@ -1,3 +1,31 @@
 <resources>
     <string name="app_name">MMS Mentor Manager</string>
+    <string name="navigate_to_compose_reports">TransitToComposeReport</string>
+    <string name="search_text">Search</string>
+    <string name="search_hint">Search mentors</string>
+    <string name="report_title">Reports</string>
+    <string name="text_max">Maximum</string>
+    <string name="text_sort">Sort</string>
+    <string name="text_program_report">Program Report</string>
+    <string name="dropdown_button">dropdown</string>
+    <string name="fab">fab</string>
+    <string name="download_button">download</string>
+    <string name="share_button">share</string>
+    <string name="text_choose_report_type">Choose Report Type</string>
+    <string name="text_task">Task</string>
+    <string name="text_program">Program</string>
+    <string name="text_select_task">Select Task</string>
+    <string name="text_select_program">Select Program</string>
+    <string name="title_compose_report">Compose Report</string>
+    <string name="title_reports">Reports</string>
+    <string name="title_hint">Report Title</string>
+    <string name="achievement_hint">Major Achievements</string>
+    <string name="blocker_hint">Major Blocker</string>
+    <string name="recommendation_hint">Major Recommendation</string>
+    <string name="radio_unselected">radio not selected</string>
+    <string name="radio_selected">radio selected</string>
+    <string name="button_cancel">cancel</string>
+    <string name="submit_text">Submit Report</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
 </resources>
